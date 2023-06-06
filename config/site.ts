@@ -1,18 +1,30 @@
-export type SiteConfig = typeof siteConfig
-
 export const siteConfig = {
-  name: "Next.js",
+  name: "Kaufkrake",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Kaufkrake die Einkaufsliste für die ganze Familie. Einfach, schnell und kostenlos",
   mainNav: [
     {
       title: "Home",
       href: "/",
+
+    },
+    {
+      title: "Warum Kaufkrake",
+      href: "/warum-kaufkrake",
+    },
+    {
+      title: "Über uns",
+      href: "/ueber-uns",
+    },
+    {
+      title: "Jetzt Installieren",
+      href: "/installieren",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/kaufkrake",
+  
+    github: "https://github.com/KaufKrake/kaufkrake-frontend",
+
   },
 }
